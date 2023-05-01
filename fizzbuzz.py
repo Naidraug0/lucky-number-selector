@@ -1,5 +1,4 @@
-for i in range(1,30+1):
-    if i%3==0 or i%5==0:
-        print('fizz'*(i%3==0)+'buzz'*(i%5==0))
-    else:
-        print(f'{i}')
+for j in range(1, 16+1):
+    if j%3==0 or j%5==0:
+	print('fizz'*(j%3==0)+'buzz'*(j%5==0))
+    else
