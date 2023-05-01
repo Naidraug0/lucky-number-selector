@@ -1,3 +1,5 @@
 import random
 
-rd.sample(range(0,45),6)
+
+result = random.sample(range(1,45+1), k=6)
+print(result)
